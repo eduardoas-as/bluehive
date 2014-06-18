@@ -1,0 +1,195 @@
+body {
+    font-family: Georgia;
+    font-size: 14px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.50);
+    color: #191007;
+    background: url(../images/wood-bg.jpg);
+    background-attachment:fixed;
+    font-family: Arial Black;
+}
+
+h1 img {
+	float: left;
+	margin-right: 5px;
+}
+
+h1 {
+	line-height: 56px;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ads {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+
+
+/*LAVALAMP START*/
+
+.lavalamp {
+    position: relative;
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    padding: 15px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 10px;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(240,240,240)), to(rgb(204,204,204)));
+    background : -moz-gradient(linear, left top, left bottom, from(rgb(240,240,240)), to(rgb(204,204,204)));
+    height: 18px;
+
+}
+
+.dark {
+	background : rgb(89,89,89);
+	background : -webkit-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+	background : -moz-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+	border: 1px solid #272727;
+	
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    z-index: 300;
+    position: absolute;
+}
+
+ul li {
+    list-style: none;
+    float:left;
+
+    text-align: center;
+    }
+
+ul li a {
+    padding: 0 20px;
+    text-align: center;
+    }
+
+.floatr {
+    position: absolute;
+    top: 10px;
+    z-index: 50;
+    width: 70px;
+    height: 30px;
+    border-radius : 8px;
+    -moz-border-radius : 8px;
+    -webkit-border-radius : 8px;
+    background : rgba(0,0,0,.20);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+}
+.paises
+{
+    width: 100%;
+}
+.pais
+{
+    background: #fff;
+    color:#fff;
+    border-radius: .5em;
+    margin: 10px;
+    padding: 10px;
+    transition: 3em 3s;
+
+}
+
+thead
+{
+    text-decoration: none;
+    color:#0B3861;
+    line-height: 30px;
+    font-family: Arial Black;
+
+}
+
+table, table td, table tr {
+    padding:0px;
+    border-spacing: 0px;
+}
+ 
+ /*tablas */
+table {
+    border:0px black solid;
+    border-radius:0px;
+    min-width:100%;
+    font-family: Helvetica,Arial;
+    color: #111111;
+    font-size: 1.1em;
+}
+ 
+table td {
+    padding:5px;
+}
+ 
+table tr:first-child td:first-child {
+    border-radius:1px 0px 0px 0px;
+}
+ 
+table tr:first-child td:last-child {
+    border-radius:0px 1px 0px 0px;
+}
+ 
+table tr:last-child td:first-child {
+    border-radius:0px 0px 0px 1px;
+}
+ 
+table tr:last-child td:last-child {
+    border-radius:0px 0px 1px 0px;
+}
+ 
+table td:not(:last-child) {
+    border-right:1px #666 solid;
+}
+ 
+ 
+table tr:nth-child(2n) {
+    background: #87CEEB;
+}
+ 
+table tr:nth-child(2n+1){
+    background: #ADD8E6;
+}
+ 
+table.header tr:not(:first-child):hover, table:not(.header) tr:hover {
+    background:#E0FFFF;
+}
+ 
+table:not(.header) tr {
+    text-align: left;
+}
+ 
+table.header tr:first-child {
+    font-weight: bold;
+    color:#fff;
+    background-color: #444;
+    border-bottom:1px #000 solid;
+}
+ 
+table.header tr:nth-child(n+2) {
+    text-align: right;
+}
+
+
+
